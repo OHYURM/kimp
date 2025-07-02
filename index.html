@@ -137,3 +137,20 @@
   </section>
 </body>
 </html>
+
+<section class="section contact">
+  <h2>상담 신청</h2>
+  <form action="https://formsubmit.co/oyr8722@kakao.com" method="POST">
+    <input type="text" name="이름" placeholder="이름" required>
+    <input type="tel" name="전화번호" placeholder="전화번호" required>
+    <textarea name="요청사항" placeholder="남기고 싶은 말" rows="4"></textarea>
+
+    <!-- 스팸 방지 옵션 -->
+    <input type="hidden" name="_captcha" value="false">
+    
+    <!-- 제출 후 이동할 페이지 -->
+    <input type="hidden" name="_next" value="https://kimp-five.vercel.app/thanks.html">
+
+    <button type="submit">상담 신청하기</button>
+  </form>
+</section>
